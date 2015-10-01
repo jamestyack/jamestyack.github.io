@@ -1,0 +1,30 @@
+[
+  {
+    "ts": "2015-05-28T01:12:21.603Z",
+    "Summary": {
+      "kiosksActive": 65,
+      "totalKiosks": 71,
+      "bikesAva": 349,
+      "docksAva": 600,
+      "totalDocks": 1200
+    },
+    "Stations": [
+      {
+        "kioskId": 3005,
+        "bikesAva" : 5,
+        "docksAva" : 10,
+        "totalDocks" : 15,
+        "kioskStatus" : "Active",
+        "bikesPercent" : 33
+      },
+      {
+        "kioskId": 3008,
+        "bikesAva" : 2,
+        "docksAva" : 23,
+        "totalDocks" : 25,
+        "kioskStatus" : "Active",
+        "bikesPercent" : 8
+      }
+    ]
+  }
+]
