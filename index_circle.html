@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Philadelphia Bike Share - Stations Bikes and Docks</title
+    <!-- Bootstrap -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+    <link href='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v0.0.3/leaflet.fullscreen.css' rel='stylesheet' />
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,700,800' rel='stylesheet' type='text/css'>
+    <link href="css/main.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  	<!--<div class="page-header text-center">
+      <div class="container">
+        <a class='pledge' target='_blank' >Bike Share - Stations, Bikes and Docks</a>
+      </div>
+   	</div>-->
+  	<div class="container-fluid">
+		<div class="row">
+			<!--<div class="col-md-2">
+				<div class="panel panel-primary">
+				    <div class="panel-heading">
+				        <h4 class="panel-title"></h3>
+				    </div>
+				</div>
+				<div class="panel panel-default">
+				    <div class="panel-heading">
+				        <h3 class="panel-title">Bikes Available</h3>
+				    </div>
+				    <div class="panel-body"><h2 id='bikes-ava' class='text-right'>321</h2></div>
+				</div>
+				<div class="panel panel-default">
+				    <div class="panel-heading">
+				        <h3 class="panel-title">Docks Available</h3>
+				    </div>
+				    <div class="panel-body"><h2 id='docks-ava' class='text-right'>789</h2></div>
+				</div>
+			</div> -->
+			<div class="col-md-12">
+				<div id='map'></div>
+			</div>
+		</div>
+	</div>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.2/leaflet.js"></script>
+	<script src="scripts/d3/d3.v3.min.js"></script>
+	<script src="scripts/d3.tip.js"></script>
+	<script src="scripts/d3clock.js"></script>
+	<script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-fullscreen/v0.0.3/Leaflet.fullscreen.min.js'></script>
+	<script src="scripts/bikeviz_circle.js"></script>
+
+
+
+  </body>
+</html>
